@@ -1,0 +1,1 @@
+cmd_/home/hop/project1/driver/student_driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/hop/project1/driver/student_driver.ko /home/hop/project1/driver/student_driver.o /home/hop/project1/driver/student_driver.mod.o;  true

@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include",
+        "/usr/local/include",
+        "/usr/src/linux-headers-5.15.0-139-generic/include",
+        "/usr/src/linux-headers-5.15.0-139-generic/include/uapi",
+        "/usr/src/linux-headers-5.15.0-139-generic/include/generated",
+        "/usr/src/linux-headers-5.15.0-139-generic/include/generated/uapi",
+        "/usr/src/linux-headers-5.15.0-139-generic/arch/x86/include",
+        "/usr/src/linux-headers-5.15.0-139-generic/arch/x86/include/uapi",
+        "/usr/src/linux-headers-5.15.0-139-generic/arch/x86/include/generated",
+        "/lib/modules/5.15.0-139-generic/build/include",
+        "/lib/modules/5.15.0-139-generic/build/arch/x86/include"
+      ],
+      "defines": [
+        "__KERNEL__",
+        "MODULE"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "/usr/src/linux-headers-5.15.0-139-generic",
+          "/lib/modules/5.15.0-139-generic/build"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
