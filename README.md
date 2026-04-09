@@ -84,4 +84,4 @@ sudo chmod 666 /dev/student_driver
 cd ~/project1
 make
 ./student_app
-admin | admin123
+admin | 123456
